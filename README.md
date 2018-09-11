@@ -1,2 +1,2 @@
 # iOS-MapKit
-MapKit handling
+Sharing the handling of MapKit
