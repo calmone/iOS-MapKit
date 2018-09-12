@@ -14,6 +14,8 @@ class BaseViewController: UIViewController {
     let kDefault_latitude: CLLocationDegrees = 37.484557
     let kDefault_longitude: CLLocationDegrees = 126.896367
     
+    var kDefault_height: CGFloat! = 50.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
