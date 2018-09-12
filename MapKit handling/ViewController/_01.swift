@@ -29,9 +29,7 @@ class _01: BaseViewController {
         self.view.addSubview(_mapView)
         
         // latitude and longitude of the center point.
-        let myLat: CLLocationDegrees = 37.484557
-        let myLon: CLLocationDegrees = 126.896367
-        let myCoordinate: CLLocationCoordinate2D = CLLocationCoordinate2DMake(myLat, myLon)
+        let myCoordinate: CLLocationCoordinate2D = CLLocationCoordinate2DMake(kDefault_latitude, kDefault_longitude)
         
         // Scale.
         let myLatDist : CLLocationDistance = 100

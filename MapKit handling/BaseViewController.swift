@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import MapKit
 
 class BaseViewController: UIViewController {
+    
+    let kDefault_latitude: CLLocationDegrees = 37.484557
+    let kDefault_longitude: CLLocationDegrees = 126.896367
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +28,6 @@ class BaseViewController: UIViewController {
     
     init(componentName: String) {
         super.init(nibName: nil, bundle: nil)
-//        self.navigationItem.prompt = componentName
         self.navigationItem.title = componentName
     }
     

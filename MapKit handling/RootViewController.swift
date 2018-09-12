@@ -42,8 +42,23 @@ class RootViewController: UITableViewController {
             
             switch component {
             case ._01: vc = _01(componentName: componentName)
+            case ._02: vc = _02(componentName: componentName)
+            case ._03: vc = _03(componentName: componentName)
+            case ._04: vc = _04(componentName: componentName)
+            case ._05: vc = _05(componentName: componentName)
+            case ._06: vc = _06(componentName: componentName)
+            case ._07: vc = _07(componentName: componentName)
+            case ._08: vc = _08(componentName: componentName)
+            case ._09: vc = _09(componentName: componentName)
+            case ._10: vc = _10(componentName: componentName)
+            case ._11: vc = _11(componentName: componentName)
+            case ._12: vc = _12(componentName: componentName)
+            case ._13: vc = _13(componentName: componentName)
+            case ._14: vc = _14(componentName: componentName)
+            case ._15: vc = _15(componentName: componentName)
+            case ._16: vc = _16(componentName: componentName)
                 
-                /* Don't use */
+            /* Don't use */
             case .COUNT: return
             }
             
