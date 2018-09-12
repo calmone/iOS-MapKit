@@ -44,3 +44,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate {
+    
+    // Add UIAlertController on UIViewController
+    func showAlert(vc: UIViewController, title: String, message: String, actionTitle: String, actionStyle: UIAlertActionStyle) {
+        // Create a UIAlertController.
+        let alert: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        
+        // Create an action of OK.
+        let action = UIAlertAction(title: actionTitle, style: actionStyle) { action in
+            print("Action OK!!")
+        }
+        
+        // Add an Action of OK.
+        alert.addAction(action)
+        
+        // Activate UIAlert.
+        vc.present(alert, animated: true, completion: nil)
+    }
+    
+    // Add ActionSheet display with UIAlertController on UIViewController
+    func showActionSheetAlert(vc: UIViewController, title: String, message: String, actions: [UIAlertAction]) {
+        // Create a UIAlertController.
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.actionSheet)
+        
+        // Add action.
+        for action in actions {
+            alert.addAction(action)
+        }
+        
+        // Activate UIAlert.
+        vc.present(alert, animated: true, completion: nil)
+    }
+    
+}
+

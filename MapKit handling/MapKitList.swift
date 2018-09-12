@@ -9,14 +9,14 @@
 import Foundation
 
 enum MapKitList: Int {
-    case UILABEL = 0
+    case _01 = 0
     
     /* Don't use */
     case COUNT
     
     func getInfo() -> ListInfo {
         switch self {
-        case .UILABEL: return ListInfo(name: "Display Map")
+        case ._01: return ListInfo(name: "Display Map")
             
             /* Don't use */
         case .COUNT: return ListInfo(name: "Count")

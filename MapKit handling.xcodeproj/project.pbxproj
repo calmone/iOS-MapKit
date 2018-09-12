@@ -8,22 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		6B89CCEB21477E6E000A209D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B89CCEA21477E6E000A209D /* AppDelegate.swift */; };
-		6B89CCED21477E6E000A209D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B89CCEC21477E6E000A209D /* ViewController.swift */; };
 		6B89CCF021477E6E000A209D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B89CCEE21477E6E000A209D /* Main.storyboard */; };
 		6B89CCF221477E70000A209D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B89CCF121477E70000A209D /* Assets.xcassets */; };
 		6B89CCF521477E70000A209D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B89CCF321477E70000A209D /* LaunchScreen.storyboard */; };
 		6B89CCFD21477F0D000A209D /* MapKitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B89CCFC21477F0D000A209D /* MapKitList.swift */; };
+		6BF37EF621489C38004CE233 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37EF521489C38004CE233 /* RootViewController.swift */; };
+		6BF37EFA21489D7C004CE233 /* _01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37EF921489D7C004CE233 /* _01.swift */; };
+		6BF37EFC21489DC5004CE233 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37EFB21489DC5004CE233 /* BaseViewController.swift */; };
+		6BF37EFE21489FBB004CE233 /* _02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37EFD21489FBB004CE233 /* _02.swift */; };
+		6BF37F002148A0A5004CE233 /* _03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37EFF2148A0A5004CE233 /* _03.swift */; };
+		6BF37F022148A0AA004CE233 /* _04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F012148A0AA004CE233 /* _04.swift */; };
+		6BF37F042148A0B5004CE233 /* _05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F032148A0B5004CE233 /* _05.swift */; };
+		6BF37F062148A0BB004CE233 /* _06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F052148A0BB004CE233 /* _06.swift */; };
+		6BF37F082148A0C2004CE233 /* _07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F072148A0C2004CE233 /* _07.swift */; };
+		6BF37F0A2148A0CA004CE233 /* _08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F092148A0CA004CE233 /* _08.swift */; };
+		6BF37F0C2148A0D9004CE233 /* _09.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F0B2148A0D9004CE233 /* _09.swift */; };
+		6BF37F0E2148A0E2004CE233 /* _10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F0D2148A0E2004CE233 /* _10.swift */; };
+		6BF37F102148A0E7004CE233 /* _11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F0F2148A0E7004CE233 /* _11.swift */; };
+		6BF37F122148A0ED004CE233 /* _12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F112148A0ED004CE233 /* _12.swift */; };
+		6BF37F142148A0FA004CE233 /* _13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F132148A0FA004CE233 /* _13.swift */; };
+		6BF37F162148A0FF004CE233 /* _14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F152148A0FF004CE233 /* _14.swift */; };
+		6BF37F182148A104004CE233 /* _15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F172148A104004CE233 /* _15.swift */; };
+		6BF37F1A2148A10B004CE233 /* _16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF37F192148A10B004CE233 /* _16.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B89CCE721477E6E000A209D /* MapKit handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapKit handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B89CCEA21477E6E000A209D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B89CCEC21477E6E000A209D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B89CCEF21477E6E000A209D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B89CCF121477E70000A209D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B89CCF421477E70000A209D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B89CCF621477E70000A209D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B89CCFC21477F0D000A209D /* MapKitList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitList.swift; sourceTree = "<group>"; };
+		6BF37EF521489C38004CE233 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		6BF37EF921489D7C004CE233 /* _01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _01.swift; sourceTree = "<group>"; };
+		6BF37EFB21489DC5004CE233 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6BF37EFD21489FBB004CE233 /* _02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _02.swift; sourceTree = "<group>"; };
+		6BF37EFF2148A0A5004CE233 /* _03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _03.swift; sourceTree = "<group>"; };
+		6BF37F012148A0AA004CE233 /* _04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _04.swift; sourceTree = "<group>"; };
+		6BF37F032148A0B5004CE233 /* _05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _05.swift; sourceTree = "<group>"; };
+		6BF37F052148A0BB004CE233 /* _06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _06.swift; sourceTree = "<group>"; };
+		6BF37F072148A0C2004CE233 /* _07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _07.swift; sourceTree = "<group>"; };
+		6BF37F092148A0CA004CE233 /* _08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _08.swift; sourceTree = "<group>"; };
+		6BF37F0B2148A0D9004CE233 /* _09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _09.swift; sourceTree = "<group>"; };
+		6BF37F0D2148A0E2004CE233 /* _10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _10.swift; sourceTree = "<group>"; };
+		6BF37F0F2148A0E7004CE233 /* _11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _11.swift; sourceTree = "<group>"; };
+		6BF37F112148A0ED004CE233 /* _12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _12.swift; sourceTree = "<group>"; };
+		6BF37F132148A0FA004CE233 /* _13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _13.swift; sourceTree = "<group>"; };
+		6BF37F152148A0FF004CE233 /* _14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _14.swift; sourceTree = "<group>"; };
+		6BF37F172148A104004CE233 /* _15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _15.swift; sourceTree = "<group>"; };
+		6BF37F192148A10B004CE233 /* _16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _16.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,48 @@
 		6B89CCE921477E6E000A209D /* MapKit handling */ = {
 			isa = PBXGroup;
 			children = (
-				6B89CCEA21477E6E000A209D /* AppDelegate.swift */,
-				6B89CCEC21477E6E000A209D /* ViewController.swift */,
-				6B89CCEE21477E6E000A209D /* Main.storyboard */,
+				6BF37EF721489CEC004CE233 /* Support */,
+				6BF37EF821489CF1004CE233 /* ViewController */,
 				6B89CCFC21477F0D000A209D /* MapKitList.swift */,
+				6B89CCEA21477E6E000A209D /* AppDelegate.swift */,
+				6BF37EF521489C38004CE233 /* RootViewController.swift */,
+				6BF37EFB21489DC5004CE233 /* BaseViewController.swift */,
+			);
+			path = "MapKit handling";
+			sourceTree = "<group>";
+		};
+		6BF37EF721489CEC004CE233 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6B89CCEE21477E6E000A209D /* Main.storyboard */,
 				6B89CCF121477E70000A209D /* Assets.xcassets */,
 				6B89CCF321477E70000A209D /* LaunchScreen.storyboard */,
 				6B89CCF621477E70000A209D /* Info.plist */,
 			);
-			path = "MapKit handling";
+			path = Support;
+			sourceTree = "<group>";
+		};
+		6BF37EF821489CF1004CE233 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6BF37EF921489D7C004CE233 /* _01.swift */,
+				6BF37EFD21489FBB004CE233 /* _02.swift */,
+				6BF37EFF2148A0A5004CE233 /* _03.swift */,
+				6BF37F012148A0AA004CE233 /* _04.swift */,
+				6BF37F032148A0B5004CE233 /* _05.swift */,
+				6BF37F052148A0BB004CE233 /* _06.swift */,
+				6BF37F072148A0C2004CE233 /* _07.swift */,
+				6BF37F092148A0CA004CE233 /* _08.swift */,
+				6BF37F0B2148A0D9004CE233 /* _09.swift */,
+				6BF37F0D2148A0E2004CE233 /* _10.swift */,
+				6BF37F0F2148A0E7004CE233 /* _11.swift */,
+				6BF37F112148A0ED004CE233 /* _12.swift */,
+				6BF37F132148A0FA004CE233 /* _13.swift */,
+				6BF37F152148A0FF004CE233 /* _14.swift */,
+				6BF37F172148A104004CE233 /* _15.swift */,
+				6BF37F192148A10B004CE233 /* _16.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +205,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B89CCED21477E6E000A209D /* ViewController.swift in Sources */,
+				6BF37F0E2148A0E2004CE233 /* _10.swift in Sources */,
+				6BF37F0C2148A0D9004CE233 /* _09.swift in Sources */,
+				6BF37F162148A0FF004CE233 /* _14.swift in Sources */,
+				6BF37EFC21489DC5004CE233 /* BaseViewController.swift in Sources */,
 				6B89CCFD21477F0D000A209D /* MapKitList.swift in Sources */,
+				6BF37F042148A0B5004CE233 /* _05.swift in Sources */,
+				6BF37EFA21489D7C004CE233 /* _01.swift in Sources */,
+				6BF37F122148A0ED004CE233 /* _12.swift in Sources */,
+				6BF37EF621489C38004CE233 /* RootViewController.swift in Sources */,
+				6BF37F002148A0A5004CE233 /* _03.swift in Sources */,
 				6B89CCEB21477E6E000A209D /* AppDelegate.swift in Sources */,
+				6BF37EFE21489FBB004CE233 /* _02.swift in Sources */,
+				6BF37F142148A0FA004CE233 /* _13.swift in Sources */,
+				6BF37F022148A0AA004CE233 /* _04.swift in Sources */,
+				6BF37F1A2148A10B004CE233 /* _16.swift in Sources */,
+				6BF37F062148A0BB004CE233 /* _06.swift in Sources */,
+				6BF37F082148A0C2004CE233 /* _07.swift in Sources */,
+				6BF37F182148A104004CE233 /* _15.swift in Sources */,
+				6BF37F0A2148A0CA004CE233 /* _08.swift in Sources */,
+				6BF37F102148A0E7004CE233 /* _11.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +369,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MapKit handling/Info.plist";
+				DEVELOPMENT_TEAM = 74C7J4KTMM;
+				INFOPLIST_FILE = "$(SRCROOT)/MapKit handling/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +388,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MapKit handling/Info.plist";
+				DEVELOPMENT_TEAM = 74C7J4KTMM;
+				INFOPLIST_FILE = "$(SRCROOT)/MapKit handling/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
