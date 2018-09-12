@@ -12,12 +12,11 @@ enum MapKitList: Int {
     case _01 = 0
     case _02
     case _03
-    
+    case _04
     
     /* Don't use */
     case COUNT
     
-    case _04
     case _05
     case _06
     case _07
@@ -36,7 +35,7 @@ enum MapKitList: Int {
         case ._01: return ListInfo(name: "Display map")
         case ._02: return ListInfo(name: "Scale map")
         case ._03: return ListInfo(name: "Current position")
-        case ._04: return ListInfo(name: "Display Map")
+        case ._04: return ListInfo(name: "Pin up")
         case ._05: return ListInfo(name: "Display Map")
         case ._06: return ListInfo(name: "Display Map")
         case ._07: return ListInfo(name: "Display Map")
