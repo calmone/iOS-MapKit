@@ -24,7 +24,8 @@ class BaseViewController: UIViewController {
     
     init(componentName: String) {
         super.init(nibName: nil, bundle: nil)
-        self.navigationItem.prompt = componentName
+//        self.navigationItem.prompt = componentName
+        self.navigationItem.title = componentName
     }
     
     required init?(coder aDecoder: NSCoder) {
