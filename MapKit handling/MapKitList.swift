@@ -39,7 +39,7 @@ enum MapKitList: Int {
         case ._06: return ListInfo(name: "Drop the pin")
         case ._07: return ListInfo(name: "Image to annotation")
         case ._08: return ListInfo(name: "Arbitrary image")
-        case ._09: return ListInfo(name: "comming soon...")
+        case ._09: return ListInfo(name: "Perform route search")
         case ._10: return ListInfo(name: "comming soon...")
         case ._11: return ListInfo(name: "comming soon...")
         case ._12: return ListInfo(name: "comming soon...")
