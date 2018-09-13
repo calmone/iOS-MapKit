@@ -42,11 +42,11 @@ enum MapKitList: Int {
         case ._09: return ListInfo(name: "Perform route search")
         case ._10: return ListInfo(name: "Local search")
         case ._11: return ListInfo(name: "Specify map type")
-        case ._12: return ListInfo(name: "comming soon...")
-        case ._13: return ListInfo(name: "comming soon...")
-        case ._14: return ListInfo(name: "comming soon...")
-        case ._15: return ListInfo(name: "comming soon...")
-        case ._16: return ListInfo(name: "comming soon...")
+        case ._12: return ListInfo(name: "Figure")
+        case ._13: return ListInfo(name: "Straight line")
+        case ._14: return ListInfo(name: "Take a snapshot")
+        case ._15: return ListInfo(name: "Positive geocoding")
+        case ._16: return ListInfo(name: "Reverse geocoding")
             
             /* Don't use */
         case .COUNT: return ListInfo(name: "Count")
