@@ -30,7 +30,7 @@ class RootViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return MapKitList.COUNT.hashValue
+        return MapKitList.COUNT.rawValue
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
